@@ -27,6 +27,8 @@ export default function App() {
         if (fr.id == id) {
           // return a copy of the friend object which has the toggled civil status
           return { ...fr, married: !fr.married };
+        } else {
+          return fr;
         }
         // otherwise, return friend unchanged
       })
