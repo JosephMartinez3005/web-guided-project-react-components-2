@@ -12,7 +12,7 @@ export default function Friend(props) {
       <div className="friend-info">
         <div>
           <h3>Name: {friend.name}</h3>
-          <p>Age: 26</p>
+          <p>Age: {friend.age}</p>
 
           <p>
             Married: yes <button>change</button>
