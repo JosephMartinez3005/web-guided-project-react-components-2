@@ -22,7 +22,7 @@ export default function App() {
 
   const changeStatus = (id) => {
     setFriends(
-      friends.map((fr) => {
+      friends.map((friend) => {
         // for each friend, if the friend has the given id,
         // if (fr.id === id) {
         //   // return a copy of the friend object which has the toggled civil status
@@ -31,6 +31,9 @@ export default function App() {
         //   return fr;
         // }
         // otherwise, return friend unchanged
+        return friend.id === id
+          ? { ...friend, married: !friend.married }
+          : friend;
       })
     );
   };
