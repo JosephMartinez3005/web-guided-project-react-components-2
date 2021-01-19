@@ -48,6 +48,7 @@ export default function App() {
       {/* STRETCH - Changes to the input should update the search term */}
 
       {/* 👉 7- Render the FriendsList component */}
+      <FriendsList />
       {/* What prop/props does FriendsList need? */}
     </div>
   );
