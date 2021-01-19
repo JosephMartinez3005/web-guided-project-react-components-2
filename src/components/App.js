@@ -44,7 +44,7 @@ export default function App() {
   return (
     <div className="app-friends container">
       {/* 👉 6- Render the Search component */}
-      <Friend />
+      <Search />
       {/* STRETCH - Changes to the input should update the search term */}
 
       {/* 👉 7- Render the FriendsList component */}
