@@ -24,7 +24,9 @@ export default function App() {
     setFriends(
       friends.map((fr) => {
         // for each friend, if the friend has the given id,
-        // return a copy of the friend object which has the toggled civil status
+        if (fr.id == id) {
+          // return a copy of the friend object which has the toggled civil status
+        }
         // otherwise, return friend unchanged
       })
     );
