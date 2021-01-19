@@ -11,7 +11,7 @@ export default function PetsList(props) {
       {/* What props does the Pet component expect? */}
 
       {pets.map((pet) => {
-        <Pet pet={pet} />;
+        return <Pet pet={pet} />;
       })}
     </div>
   );
